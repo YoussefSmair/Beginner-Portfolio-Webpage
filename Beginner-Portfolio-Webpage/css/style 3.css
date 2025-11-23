@@ -1,0 +1,145 @@
+body {
+    background-image: linear-gradient(to bottom ,white,snow, gray );
+
+    background-size: cover;
+    background-attachment: fixed;
+}
+.navbar-light .navbar-brand {
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: rgba(0,135,129,1.00);
+}
+
+.navbar-light .navbar-brand:hover{
+    color: rgb(0, 167, 158);
+}
+#logo {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#video {margin-bottom: 30px;}
+
+
+
+#leftsec {
+    width: 28%;
+    margin-left: 3%;
+    margin-right: 1.5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    float: left;
+}
+#leftsec h1 {
+    color: #FFFFFF;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+    height: auto;
+    font-weight: 700;
+    text-shadow: 3px 3px 5px #000000;
+}
+#RIGHTSEC {
+    width: 55%;
+    margin-left: 1.5%;
+    margin-right: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    float: right;
+    background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(255,255,255,0.55) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(255,255,255,0.55) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(255,255,255,0.55) 100%);
+    background-image: linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(255,255,255,0.55) 100%);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top-right-radius: 30px;
+}
+#RIGHTSEC h2 {
+    text-align: center;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-size: 2rem;
+    font-weight: 700;
+}
+#RIGHTSEC p {
+    color: #000000;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 130%;
+}
+footer {
+    clear: both;
+    bottom: 0px;
+    position: fixed;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+    background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(255,255,255,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(255,255,255,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(255,255,255,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(255,255,255,0.00) 0%,rgba(255, 255, 255, 0.422) 100%);
+    top: auto;
+    padding-top: 40px;
+}
+.carousel-caption{
+	text-shadow: 2px 2px 4px #000;
+}
+
+h5{
+font-size: 40px;
+
+
+
+}
+/*forn styles*/
+
+label{
+	width: 100%;
+}
+input{
+	width: 100%;
+}
+textareas{
+	width: 100%;
+}
+
+label,text,input{width: 100%;}
+
+
+.d-block-w-100{
+height: 50%;
+    
+}
+
+
+
+
+@media (max-width:650px){
+body {
+    background-image: url(../images/WhatsApp%20Image%202022-12-21%20at%2006.29.34.jpg);
+}
+#leftsec {
+    width: 90%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+	
+	#righttsec {
+    width: 90%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+	
+	
+	
+	
+	
+	
+}
